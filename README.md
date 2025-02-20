@@ -1,0 +1,3 @@
+# React Router Catch-all Route Conflict
+
+This repository demonstrates a common issue encountered when using the catch-all route ('*') in React Router v6. The catch-all route, intended to handle 404 errors, may unexpectedly intercept other routes under certain conditions, particularly those using nested routes.  This results in the incorrect component being rendered.  The solution involves a careful re-evaluation of route ordering and potentially employing a more granular error handling approach.
